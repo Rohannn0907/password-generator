@@ -1,0 +1,9 @@
+[build]
+  publish = "."      # publish root folder (change if your files live in a subfolder)
+  command = ""       # leave blank for static sites; if you use a build step, put it here
+
+[[redirects]]
+  from = "/"
+  to = "/jsproject1.html"
+  status = 200
+  force = true
